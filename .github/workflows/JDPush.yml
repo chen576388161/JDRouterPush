@@ -3,8 +3,8 @@ name: JDPush
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 22 * * *'
-    # cron表达式，Actions时区是UTC时间，需要往前推8个小时  此时为6点50推送
+    - cron: '45 22 * * *'
+    # cron表达式，Actions时区是UTC时间，需要往前推8个小时  此时为6点45推送
 
 jobs:
   build:
